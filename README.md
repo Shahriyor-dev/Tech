@@ -1,1 +1,3 @@
 # Tech
+
+Burxonov Shahriyor
