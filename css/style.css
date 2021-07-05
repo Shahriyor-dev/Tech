@@ -766,7 +766,6 @@ a {
 .sidebar {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
 }
 .custom {
   display: flex;
@@ -837,4 +836,133 @@ a {
   width: 88px;
   height: 37px;
   margin: auto;
+}
+.cataloglist-wrapper {
+  display: inline-block;
+  margin-top: -50px;
+}
+.cataloglist-card {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.14);
+  margin-bottom: 15px;
+  max-width: 1160px;
+  padding-top: 9px;
+  padding-right: 176px;
+  padding-bottom: 36px;
+  padding-left: 53px;
+  position: relative;
+}
+.cataloglist-card__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cataloglist__img {
+  width: 250px;
+  height: 250px;
+  margin-right: 53px;
+}
+.cataloglist-text {
+  max-width: 346px;
+  margin-right: 53px;
+}
+.cataloglist-text__name {
+  margin-bottom: 21px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000;
+}
+.cataloglist-text__description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  color: #000;
+  margin-bottom: 16px;
+}
+.cataloglist__price {
+  display: flex;
+  align-items: center;
+}
+.cataloglist__price--old {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  text-decoration-line: line-through;
+  color: #666666;
+  margin-right: 8px;
+}
+.cataloglist__price--new {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: #000000;
+}
+.cataloglist-bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.cataloglist-btn {
+  display: flex;
+  align-items: center;
+  border: 2px solid #0156ff;
+  border-radius: 50px;
+  padding: 8px 20px;
+  margin-left: 150px;
+}
+.cataloglist-btn__img {
+  margin-right: 10px;
+}
+.cataloglist-btn__name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #0156ff;
+}
+.cataloglist-advantages {
+  display: flex;
+  margin-left: auto;
+}
+.cataloglist-advantages__link {
+  margin-right: 6px;
+}
+.cataloglist-info__row {
+  display: flex;
+  align-items: center;
+}
+.cataloglist-info__row-cpu {
+  margin-right: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+}
+.cataloglist-info__row-na {
+  margin-left: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+}
+.cataloglist-instock {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 21px;
+  right: 21px;
+}
+.cataloglist-instock__name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 210%;
+  color: #78a962;
+  margin-left: 2px;
 }
